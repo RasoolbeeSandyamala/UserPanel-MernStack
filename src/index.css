@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family:"Outfit";
+}
+.a-hover{
+  color:#0d6efd!important;
+}
+.a-hover:hover{
+    color:#0d1a78!important;
+  border-bottom: 2px solid blue;
+  max-width: 50%;
+}
+
+.doclink{
+  transition: all ease 0.9s;
+}
+.doclink:hover{
+  transform:scale(1.1,1.1)
+}
+.docslink{
+  background-color:#cfe2ff ;
+  transition: all ease 0.8s;
+}
+.docslink:hover{
+  transform:scale(0.9,0.9)
+}
+.round{
+  width: 10px;
+  height:10px;
+  border: 2px solid green;
+  border-radius: 100%;
+}
+.btn1{
+  background-color: #cfe2ff !important;
+  color: black;
+}
+.footer{
+  color: #0d1a78;
+transform:color ease 0.6s;
+}
+.footerhover:hover{
+  color:#0d6efd !important;
+  font-weight: 500;
+  font-size: 18px;
+
+}
+.pactive:hover{
+  background-color:#cfe2ff;
+  cursor:pointer;
+}
+
+.doc-info-img{
+  background-color: #5f6fff;
+  border-radius: 10px;
+}
+.light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #f0f0f0;
+}
+.abouthover:hover{
+  background-color: #5f6fff !important;
+}
+.loginform{
+  width:400px !important;
+  max-width: 100%;
+}
+.loginformlink{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.light-mode {
+  background-color: white !important;
+  color: black !important;
+}
+
+.dark-mode {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+/* Fix for forms */
+.dark-mode .loginform {
+  background-color: #222 !important;
+  color: white !important;
+  border: 1px solid #444;
+}
